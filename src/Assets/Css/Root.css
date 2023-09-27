@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+/*font-family: 'Rubik', sans-serif;*/
+:root {
+    --ff-primary: 'Rubik', sans-serif;
+    --fs-xxxs: 9px;
+    --fs-xxs: 10px;
+    --fs-xs: 12px;
+    --fs-sm: 16px;
+    --fs-md: 22px;
+    --fs-2md: 24px;
+    --fs-lg: 40px;
+    --fs-xl: 52px;
+
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --semiBold: 600;
+    --bold: 700;
+    --extraBold: 800;
+    --extraLarge: 900;
+
+    --primary-color: #f36a3e;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --dark-color: #4C4745;
+    --secondary-color: #f9f9f9;
+    --main-color: #fffefe;
+    --darkblack-color: #010101;
+    --grey-color: #333333;
+    --green-color: #2ECC71;
+    --light-grey: #5e5e5e;
+    --greyish-color: #7D7D7D;
+
+}
+
+.ff-primary {
+    font-family: var(--ff-primary) !important;
+}
+
+.fs-9 {
+    font-size: var(--fs-xxxs) !important;
+}
+
+.fs-10 {
+    font-size: var(--fs-xxs) !important;
+}
+
+.fs-12 {
+    font-size: var(--fs-xs) !important;
+}
+
+
+.fs-16 {
+    font-size: var(--fs-sm) !important;
+}
+
+
+.fs-22 {
+    font-size: var(--fs-md) !important;
+}
+
+.fs-24 {
+    font-size: var(--fs-2md) !important;
+}
+
+
+.fs-40 {
+    font-size: var(--fs-lg) !important;
+}
+
+.fs-52 {
+    font-size: var(--fs-2lg) !important;
+}
+
+.fw-300 {
+    font-weight: var(--light) !important;
+}
+
+.fw-400 {
+    font-weight: var(--regular) !important;
+}
+
+.fw-500 {
+    font-weight: var(--medium) !important;
+}
+
+.fw-600 {
+    font-weight: var(--semiBold) !important;
+}
+
+.fw-700 {
+    font-weight: var(--bold) !important;
+}
+
+.fw-800 {
+    font-weight: var(--extraBold) !important;
+}
+
+.fw-900 {
+    font-weight: var(--extraLarge) !important;
+}
+
+.bg_primary {
+    background-color: var(--primary-color);
+}
+
+.bg_white {
+    background-color: var(--white-color);
+}
+
+.bg_black {
+    background-color: var(--black-color);
+}
+
+.bg_secondary {
+    background-color: var(--secondary-color);
+}
+
+.bg_main {
+    background-color: var(--main-color);
+}
+
+.fc-primary {
+    color: var(--primary-color);
+}
+
+.fc-white {
+    color: var(--white-color);
+}
+
+.fc-black {
+    color: var(--black-color);
+}
+
+.fc-dark {
+    color: var(--dark-color);
+}
+
+.fc-darkblack {
+    color: var(--darkblack-color);
+}
+
+.fc-secondary {
+    color: var(--secondary-color);
+}
+
+.fc-grey {
+    color: var(--grey-color);
+}
+
+.fc-green {
+    color: var(--green-color);
+}
+
+.fc-lightgrey {
+    color: var(--light-grey);
+}
+
+.fc-greyish{
+    color: var(--greyish-color);
+}
+
+
+
+@media (min-width:576px) {
+    :root {
+        --fs-xs: 12px;
+        --fs-sm: 16px;
+        --fs-md: 22px;
+        --fs-2md: 24px;
+        --fs-lg: 40px;
+        --fs-xl: 52px;
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+       
+        --fs-lg: 32px;
+    }
+}
+
