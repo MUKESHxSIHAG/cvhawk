@@ -10,7 +10,7 @@ const Footer = () => {
             <footer className='bg_black'>
                 <Container>
                     <Row className='pb-5 justify-content-center'>
-                        <Col lg={5} data-aos="fade-right">
+                        <Col lg={5}>
                             <div className='d-flex flex-column justify-content-start align-items-start'>
                                 <img src={FooterLogo} alt="Footer Logo" />
                                 <p className='max-w-373 mb-0 fc-white fs-16 fw-400 ff-primary opacity-75'>Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat id facilisis.</p>
@@ -25,7 +25,7 @@ const Footer = () => {
 
                         </Col>
 
-                        <Col lg={7} data-aos="fade-left">
+                        <Col lg={7}>
                             <Row className='pt-5'>
                                 <Col lg={4} sm={6}>
                                     <div>
