@@ -42,22 +42,24 @@ const ProfessionalDesign = () => {
                                 <p className='fs-16 fw-400 fc-black ff-primary opacity-75 max-w-558 mt-2'>Express your professional history without limitations or worry about how your resume looks</p>
                             </div>
 
-                            <div className='d-flex align-items-center gap-2 mt-3'>
+                            <div className='d-flex align-items-center gap-2 mt-16'>
                                 <Tick />
                                 <p className='mb-0 ff-primary fs-16 fw-400 fc-black'>Professional sections like <span className='fw-600'> Experience, Skills, Summary </span>and <span className='fw-600'> Education</span></p>
                             </div>
 
-                            <div className='d-flex align-items-center gap-2 mt-2'>
+                            <div className='d-flex align-items-center gap-2 mt-16'>
                                 <Tick />
                                 <p className='mb-0 ff-primary fs-16 fw-400 fc-black'>Professional sections like <span className='fw-600'>Strengths, Quotes, Books, Interests </span> and <span className='fw-600'> My Time</span></p>
                             </div>
 
-                            <div className='d-flex gap-2 mt-2'>
+                            <div className='d-flex gap-2 mt-16'>
                                 <Tick />
                                 <p className='mb-0 ff-primary fs-16 fw-400 fc-black max-w-558'>Other sections like <span className='fw-600'>Certifications, Awards, Achievements, Language</span> and <span className='fw-600'> Reference</span></p>
                             </div>
 
-                            <button className='headerbtn bg_primary ff-primary fs-16 fw-600 fc-white mt-5'>Get Started</button>
+                            <div className='d-md-block d-none'>
+                                <button className='headerbtn bg_primary ff-primary fs-16 fw-600 fc-white mt-5'>Get Started</button>
+                           </div>
                         </Col>
 
                         <Col lg={6} className='mt-lg-0 mt-lg-0 pt-lg-0 mt-5 pt-5 og' data-aos="fade-down">
@@ -169,9 +171,13 @@ const ProfessionalDesign = () => {
                                             </div>
                                         </div>
                                     </div>
+                                   
                                 </div>
                             </div>
                         </Col>
+                        <div className='d-md-none d-block trans'>
+                            <button className='headerbtn bg_primary ff-primary fs-16 fw-600 fc-white mt-5'>Get Started</button>
+                        </div>
                     </Row>
                 </Container>
             </section>

@@ -19,15 +19,15 @@ const JobApplying = () => {
                           <div className='pt-md-0 mt-5'>
                               <h2 className='fs-40 fw-500 ff-primary fc-darkblack max-w-558 mb-0'>Resume trailoring based on the <span className='fc-primary whitespace'>job you’re applying </span>for</h2>
                               <p className='fs-16 fw-400 ff-primary fc-black opacity-75 mt-3'>Quickly ensure that your resume covers key skills and experience by pasting the job ad you’re applying for</p>
-                              <div className='d-flex gap-2 mt-2'>
+                              <div className='d-flex gap-2 mt-16'>
                                   <Tick/>
                                   <p className='mb-0 fs-16 fw-400 fc-black ff-primary'>Skills and experience analysis</p>
                               </div>
-                              <div className='d-flex gap-2 mt-2'>
+                              <div className='d-flex gap-2 mt-16'>
                                   <Tick/>
                                   <p className='mb-0 fs-16 fw-400 fc-black ff-primary'>Actionable Checklist of what else to add to your resume</p>
                               </div>
-                              <div className='d-flex gap-2 mt-2'>
+                              <div className='d-flex gap-2 mt-16'>
                                   <Tick/>
                                   <p className='mb-0 fs-16 fw-400 fc-black ff-primary'>Instant comparison between your resume and the job posting</p>
                               </div>

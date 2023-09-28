@@ -7,10 +7,10 @@ const Faq = () => {
         <>
             <Container className='mt-4 pt-5'>
                 <div className='d-flex justify-content-center align-items-center' data-aos="zoom-in">
-                    <h2 className='text-center fc-darkblack fs-40 ff-primary fw-500'>Frequently Asked Questions</h2>
+                    <h2 className='text-center fc-darkblack fs-40 ff-primary fw-500 pt-5'>Frequently Asked Questions</h2>
                 </div>
 
-                <Row className='justify-content-center'>
+                <Row className='justify-content-center pt-5 pb-5'>
                     <Col lg={9}>
 
                         <Accordion className=''>

@@ -59,7 +59,7 @@ const ClientsSay = () => {
                                             </div>
                                         </div>
                                     </Col>
-                                    <Col lg={4} data-aos="zoom-in" data-aos-delay="400">
+                                    <Col lg={4} data-aos="zoom-in " data-aos-delay="400">
                                         <div className="bg_secondary mt-5">
                                             <div className="clientsBox position-relative">
                                                 <img className="triangle" src={Triangle} alt="" />
@@ -197,14 +197,7 @@ const ClientsSay = () => {
                                         </div>
                                     </Col>
                                 </Row>
-
-
-
                             </div>
-
-
-
-
                         </Slider>
                     </Row>
                 </Container>

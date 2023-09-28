@@ -13,12 +13,14 @@ const Footer = () => {
                         <Col lg={5} data-aos="fade-right">
                             <div className='d-flex flex-column justify-content-start align-items-start'>
                                 <img src={FooterLogo} alt="Footer Logo" />
-                                <p className='max-w-373 mb-0 fc-white fs-16 fw-400 ff-primary'>Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat id facilisis.</p>
-                                <ul className='ps-0 d-flex align-items-center justify-content-center gap-4 mt-4' id='social-media'>
-                                    <li><a className='tweet' href="https://www.twitter.com/" target='/'><Twitter /></a></li>
-                                    <li><a href="https://www.facebook.com/" target='/'><Facebook /></a></li>
-                                    <li><a href="https://www.instagram.com/" target='/'><Instagram /></a></li>
-                                </ul>
+                                <p className='max-w-373 mb-0 fc-white fs-16 fw-400 ff-primary opacity-75'>Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat id facilisis.</p>
+                                <div className='d-lg-block d-none'>
+                                    <ul className='ps-0 d-flex  align-items-center justify-content-center gap-4 mt-4 ' id='social-media'>
+                                        <li><a className='tweet' href="https://www.twitter.com/" target='/'><Twitter /></a></li>
+                                        <li><a href="https://www.facebook.com/" target='/'><Facebook /></a></li>
+                                        <li><a href="https://www.instagram.com/" target='/'><Instagram /></a></li>
+                                    </ul>
+                                </div>
                             </div>
 
                         </Col>
@@ -29,10 +31,10 @@ const Footer = () => {
                                     <div>
                                         <ul className='mb-0 ps-0'>
                                             <li className='ff-primary fs-16 fw-500 fc-white mb-0'>Quick Links</li>
-                                            <li className='mt-20'><Link className='fs-16 ff-primary fw-400 fc-white mb-0'>Home</Link></li>
-                                            <li className='mt-20'><Link className='fs-16 ff-primary fw-400 fc-white mb-0'>About</Link></li>
-                                            <li className='mt-20'><Link className='fs-16 ff-primary fw-400 fc-white mb-0'>We’ll help you</Link></li>
-                                            <li className='mt-20'><Link className='fs-16 ff-primary fw-400 fc-white mb-0'>Testimonials</Link></li>
+                                            <li className='mt-20'><Link className='fs-16 ff-primary fw-400 fc-white mb-0 opacity-75'>Home</Link></li>
+                                            <li className='mt-20'><Link className='fs-16 ff-primary fw-400 fc-white mb-0 opacity-75'>About</Link></li>
+                                            <li className='mt-20'><Link className='fs-16 ff-primary fw-400 fc-white mb-0 opacity-75'>We’ll help you</Link></li>
+                                            <li className='mt-20'><Link className='fs-16 ff-primary fw-400 fc-white mb-0 opacity-75'>Testimonials</Link></li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -41,8 +43,8 @@ const Footer = () => {
                                     <div className='mt-sm-0 mt-5'>
                                         <ul className='mb-0 ps-0'>
                                             <li className='ff-primary fs-16 fw-500 fc-white mb-0'>Support</li>
-                                            <li className='mt-20'><Link className='fs-16 ff-primary fw-400 fc-white mb-0'><Phone /> +012 345 67890</Link></li>
-                                            <li className='mt-20'><Link className='fs-16 ff-primary fw-400 fc-white mb-0'><Email /> Cvhawk@gmail.com</Link></li>
+                                            <li className='mt-20'><Link className='fs-16 ff-primary fw-400 fc-white mb-0 opacity-75'><Phone /> +012 345 67890</Link></li>
+                                            <li className='mt-20 whitespaces'><Link className='fs-16 ff-primary fw-400 fc-white mb-0 opacity-75'><Email /> Cvhawk@gmail.com</Link></li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -51,8 +53,13 @@ const Footer = () => {
                                     <div className='mt-lg-0 mt-5'>
                                         <ul className='mb-0 ps-0'>
                                             <li className='ff-primary fs-16 fw-500 fc-white mb-0'>Legal</li>
-                                            <li className='mt-20'><Link className='fs-16 ff-primary fw-400 fc-white mb-0 '>Privacy Policy</Link></li>
-                                            <li className='mt-20'><Link className='fs-16 ff-primary fw-400 fc-white mb-0'>Terms & conditions</Link></li>
+                                            <li className='mt-20'><Link className='fs-16 ff-primary fw-400 fc-white mb-0 opacity-75 '>Privacy Policy</Link></li>
+                                            <li className='mt-20'><Link className='fs-16 ff-primary fw-400 fc-white mb-0 opacity-75'>Terms & conditions</Link></li>
+                                        </ul>
+                                        <ul className='ps-0 d-flex align-items-center gap-4 mt-4 d-lg-none ' id='social-media'>
+                                            <li><a className='tweet' href="https://www.twitter.com/" target='/'><Twitter /></a></li>
+                                            <li><a href="https://www.facebook.com/" target='/'><Facebook /></a></li>
+                                            <li><a href="https://www.instagram.com/" target='/'><Instagram /></a></li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -63,7 +70,7 @@ const Footer = () => {
                 </Container>
                 <div className='footerLine'></div>
                 <div className='d-flex justify-content-center align-items-center'>
-                    <p className='text-center ff-primary fs-16 fw-500 fc-white mt-3'>Copyright@CVhawk2023</p>
+                    <p className='text-center ff-primary fs-16 fw-500 fc-white mt-3 opacity-75'>Copyright@CVhawk2023</p>
                 </div>
 
             </footer>

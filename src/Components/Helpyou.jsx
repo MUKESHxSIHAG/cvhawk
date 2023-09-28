@@ -9,14 +9,14 @@ const Helpyou = () => {
               <div className='blur pos0'></div>
               <Container className='pt-5 pb-5 position-relative'>
                   <Row className='justify-content-center align-items-center pt-lg-5 pt-0 pb-lg-5 pb-0 mb-lg-5 mb-0 mt-5'>
-                      <Col lg={6} data-aos="fade-right">
-                          <div>
+                      <Col lg={6} data-aos="fade-right order-lg-last">
+                          <div className='mt-lg-0 mt-5 pt-lg-0 pt-5'>
                               <img className='w-100' src={HelpYou} alt="" />
                           </div>
                       
                       </Col>   
                       
-                      <Col lg={6} className='mt-lg-0 mt-5' data-aos="fade-left">
+                      <Col lg={6} className='order-first' data-aos="fade-left">
                           <div>
                               <h2 className='fs-40 ff-primary fw-500 fc-darkblack'>We’ll help you</h2>
                               <p className='fs-16 ff-primary fw-400 fc-black mb-0 pt-1'>Once you've booked a session, a confirmation email will be sent to the provided email address, containing all the necessary details, including the date, time, and instructions for the session.</p>

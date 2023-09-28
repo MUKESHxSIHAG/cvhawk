@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import Theme from '../Assets/Images/png/Theme.png'
+import Theme from '../Assets/Images/gif/Gifts.gif'
 import Slider from "react-slick";
 import { Copies, Customize, Settings, Templates} from './Icons';
 import Version from '../Assets/Images/svg/Version.svg'
@@ -16,7 +16,14 @@ const ThemeSection = () => {
 
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 998,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
@@ -40,7 +47,7 @@ const ThemeSection = () => {
     };
     return (
         <>
-            <section className='position-relative'>
+            <section className='position-relative pt-md-none pt-5'>
                 <div className='backgroundBlur2 position-absolute'></div>
                 <div className='blur pos1'></div>
                 <Container className='pt-lg-5 pt-0 mt-5 pb-md-5 pb-0 position-relative'>
@@ -50,28 +57,28 @@ const ThemeSection = () => {
                         </Col>
 
                         <Col lg={6} >
-                            <div className='pt-lg-0 pt-5'>
+                            <div className='pt-lg-0 pt-5' id='Slider'>
                                 <Slider {...settings} className='d-flex justify-content-center ps-3 align-items-center'>
                                     <div className='d-inline-block '>
-                                        <div className='smallBox d-flex flex-column justify-content-center align-items-center text-center'>
+                                        <div className='smallBox d-flex flex-column justify-content-center align-items-center mx-auto text-center'>
                                             <Settings />
                                             <p className='ff-primary fs-22 fc-black fw-500 mb-0 mt-2'>Themes</p>
 
                                         </div>
                                     </div>
-                                    <div className='d-flex justify-content-center align-items-center flex-column' >
+                                    <div className='d-flex justify-content-center align-items-center mx-auto flex-column' >
                                         <div className='smallBox d-flex flex-column justify-content-center align-items-center'>
                                             <Customize />
                                             <p className='ff-primary fs-22 fc-black fw-500 mb-0 mt-2'>Customize</p>
                                         </div>
                                     </div>
-                                    <div className='d-flex justify-content-center align-items-center flex-column' >
+                                    <div className='d-flex justify-content-center align-items-center mx-auto flex-column' >
                                         <div className='smallBox d-flex flex-column justify-content-center align-items-center'>
                                             <Copies />
                                             <p className='ff-primary fs-22 fc-black fw-500 mb-0 mt-2'>Make Copies</p>
                                         </div>
                                     </div>
-                                    <div className='d-flex justify-content-center align-items-center flex-column' >
+                                    <div className='d-flex justify-content-center align-items-center mx-auto flex-column' >
                                         <div className='smallBox d-flex flex-column justify-content-center align-items-center'>
                                             <Templates />
                                             <p className='ff-primary fs-22 fc-black fw-500 mb-0 mt-2'>Templates</p>
@@ -79,7 +86,7 @@ const ThemeSection = () => {
                                         </div>
                                     </div>
 
-                                    <div className='d-flex justify-content-center align-items-center flex-column' >
+                                    <div className='d-flex justify-content-center align-items-center mx-auto flex-column' >
                                         <div className='smallBox d-flex flex-column justify-content-center align-items-center'>
                                             <img src={Version} alt="" />
                                             <p className='ff-primary fs-22 fc-black fw-500 mb-0 text-center mt-2'>Version History</p>
