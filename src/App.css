@@ -22,6 +22,10 @@
   transition: 300ms all linear !important;
 }
 
+.crsr{
+  cursor: pointer;
+}
+
 /* Header Section */
 
 .max-w-623 {

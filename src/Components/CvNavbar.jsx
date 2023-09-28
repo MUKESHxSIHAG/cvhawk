@@ -23,7 +23,7 @@ const CvNavbar = () => {
             <Container>
                 <div className='d-flex justify-content-between py-4 align-items-center' >
                     <div>
-                        <img src={Logo} alt="Cv Hawk Logo" />
+                        <img className='crsr' src={Logo} alt="Cv Hawk Logo" />
                     </div>
 
                     <h3 className='position-relative z-3 d-lg-none text-black' onClick={first ? shownav : hidenav}>  {first ? <RxHamburgerMenu /> : <RxCross1 />}  </h3>
