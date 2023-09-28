@@ -47,7 +47,7 @@ const Header = () => {
                         <button className='ff-primary bg_primary fc-white fs-16 fw-600 headerbtn'>Watch Demo</button>
                     </div>
 
-                    <div className='d-md-none d-block position-relative z-99'>
+                    <div className='d-md-none d-block position-relative z-5'>
                         <Slider {...settings} className='pt-5  justify-content-center align-items-center gap-3'>
                             <div className='d-flex justify-content-center align-items-center'>
                                 <img className='w-100' src={Sliders} alt="Paper" />
