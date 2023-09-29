@@ -44,7 +44,7 @@ const Header = () => {
                     </div>
                     <div className='d-flex flex_column justify-content-center align-items-center gap-3 mt-5'>
                         <button className='ff-primary bg_primary fc-white fs-16 fw-600 headerbtn'>Get Started</button>
-                        <button className='ff-primary bg_primary fc-white fs-16 fw-600 headerbtn'>Watch Demo</button>
+                        <button className='ff-primary bg_white fc-primary fs-16 fw-600 headerbtn1'>Watch Demo</button>
                     </div>
 
                     <div className='d-md-none d-block position-relative z-5'>

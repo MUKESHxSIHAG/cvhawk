@@ -27,7 +27,7 @@ const Footer = () => {
 
                         <Col lg={7}>
                             <Row className='pt-5'>
-                                <Col lg={4} sm={6}>
+                                <Col lg={4} sm={6} >
                                     <div>
                                         <ul className='mb-0 ps-0'>
                                             <li className='ff-primary fs-16 fw-500 fc-white mb-0'>Quick Links</li>
@@ -39,7 +39,7 @@ const Footer = () => {
                                     </div>
                                 </Col>
 
-                                <Col lg={4} sm={6}>
+                                <Col lg={4} sm={6} >
                                     <div className='mt-sm-0 mt-5'>
                                         <ul className='mb-0 ps-0'>
                                             <li className='ff-primary fs-16 fw-500 fc-white mb-0'>Support</li>
