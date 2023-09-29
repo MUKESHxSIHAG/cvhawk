@@ -29,7 +29,7 @@ const Preloader = () => {
                                     <img className="wordpressLoader w-100" src={Logo} alt="Preloader" />
                                 </span>
                                 <div className="d-flex justify-content-center align-items-center mt-5">
-                                    <h2 className="ff-primary fc-white fs-40 fw-700 ">UNLOCK YOUR <span className="fc-primary fw-900">POTENTIAL CV</span> </h2>
+                                    <h2 className="ff-primary fc-white fs-40 fw-700 ">UNLOCK YOUR <span className="fc-primary fw-900 typewriter">POTENTIAL CV</span> </h2>
                                 </div>
                             </div>
                         </div>
